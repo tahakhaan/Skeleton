@@ -1,0 +1,149 @@
+html,body {
+    padding: 0px;    
+    margin: 0px;
+}
+
+.wrapper {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.wrap {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
+
+.img-div .iphone1 {
+    position: relative;
+    height: 620px;
+    width: 300px;
+    left: 260px;
+    top: 12px;
+}
+
+.img-div .iphone2 {
+    height: 600px;
+}
+
+.main-div {
+    flex-direction: row;
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+}
+
+.img-div {
+    position: relative;
+    left: 110px;
+    top: 80px;
+}
+
+.para-div {
+    margin-top: 160px;
+    width: 450px;
+}
+
+.para-div p {
+    font-size: 36px;
+}
+
+.anchor {
+    background-color: rgb(30, 174, 219);
+    border: 1px solid rgb(30, 174, 219);
+    padding: 10px 22px 10px 22px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 12px;
+    color: white;
+}
+
+.features {
+    background-image: url('../../images/background-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 585px;
+}
+
+.info {
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+}
+
+.info .items p {
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    width: 320px;
+    margin: 0;
+}
+
+.info .items {
+    margin: 250px 30px 0px 50px;
+}
+
+.third-div {
+    margin: 150px 0px 150px 0px;
+}
+
+.third-div-hed-para {
+    text-align: center;
+}
+
+
+.third-div-hed-para p {
+    margin: 15px 0px 30px 220px;
+    line-height: 30px;
+    font-size: 19px;
+    width: 840px;
+}
+
+.third-div-hed-para a {
+    background-color: rgb(30, 174, 219);
+    border: 1px solid rgb(30, 174, 219);
+    padding: 10px 22px 10px 22px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 12px;
+    color: white;
+}
+
+.img-main-div {
+    background-image: url('../../images/background-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.img-main-div-hed-para {
+    text-align: center;
+}
+
+
+.img-main-div-hed-para p {
+    margin: 0px 0px 50px 340px;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    width: 600px;
+}
+
+.img-last-div {
+    flex-direction: row;
+    display: flex;
+}
+
+.img-last-div p {
+    margin-top: 115px;
+}
+
+.img-last-div .img {
+    border: 2px dashed white;
+    text-align: center;
+    margin-left: 90px;
+    font-size: 30px;
+    color: white;
+    height: 280px;
+    width: 500px;
+}
